@@ -1,0 +1,31 @@
+name: neo_video_player_avfoundation
+description: iOS implementation of the neo_video_player plugin.
+repository: https://github.com/flutter/packages/tree/main/packages/neo_video_player/video_player_avfoundation
+issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+neo_video_player%22
+version: 2.4.1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.3.0"
+
+flutter:
+  plugin:
+    implements: neo_video_player
+    platforms:
+      ios:
+        dartPluginClass: AVFoundationVideoPlayer
+        pluginClass: FLTVideoPlayerPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  neo_video_player_platform_interface:
+   path: ../neo_video_player_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pigeon: ^2.0.1
+  very_good_analysis: ^4.0.0
+

@@ -1,0 +1,39 @@
+name: neo_video_player
+description: Flutter plugin for displaying inline video with other Flutter
+  widgets on Android, iOS, and web.
+repository: https://github.com/flutter/packages/tree/main/packages/neo_video_player/neo_video_player
+issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+neo_video_player%22
+version: 2.6.0
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: neo_video_player_android
+      ios:
+        default_package: neo_video_player_avfoundation
+      web:
+        default_package: neo_video_player_web
+
+dependencies:
+  flutter:
+    sdk: flutter
+  html: ^0.15.0
+  neo_video_player_android:
+    path: ../neo_video_player_android
+  neo_video_player_avfoundation:
+    path: ../neo_video_player_avfoundation
+  neo_video_player_platform_interface:
+    path: ../neo_video_player_platform_interface
+  neo_video_player_web:
+    path: ../neo_video_player_web
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^4.0.0
