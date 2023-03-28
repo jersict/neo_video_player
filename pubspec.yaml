@@ -25,13 +25,13 @@ dependencies:
     sdk: flutter
   html: ^0.15.0
   neo_video_player_android:
-    path: ./neo_video_player_android
+    git: neo_video_player_android
   neo_video_player_avfoundation:
-    path: ./neo_video_player_avfoundation
+    path: neo_video_player_avfoundation
   neo_video_player_platform_interface:
-    path: ./neo_video_player_platform_interface
+    path: neo_video_player_platform_interface
   neo_video_player_web:
-    path: ./neo_video_player_web
+    path: neo_video_player_web
 
 dev_dependencies:
   flutter_test:

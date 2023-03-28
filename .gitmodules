@@ -1,0 +1,3 @@
+[submodule "neo_video_player_android"]
+	path = neo_video_player_android
+	url = git@github.com:https://github.com/MacjaZival/neo_video_player

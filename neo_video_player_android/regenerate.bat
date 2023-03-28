@@ -1,1 +1,0 @@
-flutter pub run pigeon --input .\pigeons\messages.dart --dart_out .\lib\src\messages.g.dart --java_out .\android\src\main\java\io\flutter\plugins\videoplayer\Messages.java
