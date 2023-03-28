@@ -10,9 +10,13 @@ dependencies:
     sdk: flutter
   js: ^0.6.0
   neo_video_player_platform_interface:
-    path: ../../neo_video_player_platform_interface
+    git: 
+      url: https://github.com/MacjaZival/neo_video_player.git
+      path: neo_video_player_platform_interface
   neo_video_player_web:
-    path: ../
+    git: 
+      url: https://github.com/MacjaZival/neo_video_player.git
+      path: neo_video_player_web
 
 dev_dependencies:
   flutter_driver:

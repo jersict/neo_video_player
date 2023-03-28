@@ -20,8 +20,9 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  neo_video_player_platform_interface:
-   path: ../neo_video_player_platform_interface
+    git: 
+      url: https://github.com/MacjaZival/neo_video_player.git
+      path: neo_video_player_platform_interface
 
 dev_dependencies:
   flutter_test:
