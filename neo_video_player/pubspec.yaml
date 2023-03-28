@@ -25,6 +25,7 @@ dependencies:
     sdk: flutter
   html: ^0.15.0
   neo_video_player_android:
+<<<<<<< HEAD:pubspec.yaml
     git: neo_video_player_android
   neo_video_player_avfoundation:
     path: neo_video_player_avfoundation
@@ -32,6 +33,15 @@ dependencies:
     path: neo_video_player_platform_interface
   neo_video_player_web:
     path: neo_video_player_web
+=======
+    path: ../neo_video_player_android
+  neo_video_player_avfoundation:
+    path: ../neo_video_player_avfoundation
+  neo_video_player_platform_interface:
+    path: ../neo_video_player_platform_interface
+  neo_video_player_web:
+    path: ../neo_video_player_web
+>>>>>>> parent of 464b409 (Rewrote so the package can be directly included.):neo_video_player/pubspec.yaml
 
 dev_dependencies:
   flutter_test:
